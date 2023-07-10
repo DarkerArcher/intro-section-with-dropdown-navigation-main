@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-and-javascript-f7rcTq_fy6))
-- Live Site URL: [Live Site]([https://your-live-site-url.com](https://darkerarcher.github.io/intro-section-with-dropdown-navigation-main/))
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-and-javascript-f7rcTq_fy6)
+- Live Site URL: [Live Site](https://darkerarcher.github.io/intro-section-with-dropdown-navigation-main/)
 
 
 ### Built with
