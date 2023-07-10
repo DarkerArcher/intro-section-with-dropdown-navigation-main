@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="nav-links">
+          <div class="dropdown">
+            <a href="#" class="dropbtn"
+              >Features
+              <img src="./images/icon-arrow-down.svg" />
+            </a>
+            <div class="dropdown-content">
+              <a href="#"
+                ><img src="./images/icon-todo.svg" alt="todo" /> Todo List</a
+              >
+              <a href="#"
+                ><img src="./images/icon-calendar.svg" alt="calendar" />
+                Calendar</a
+              >
+              <a href="#"
+                ><img
+                  src="./images/icon-reminders.svg"
+                  alt="reminder"
+                />Reminders</a
+              >
+              <a href="#"
+                ><img
+                  src="./images/icon-planning.svg"
+                  alt="planning"
+                />Planning</a
+              >
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="#" class="dropbtn"
+              >Company
+              <img src="./images/icon-arrow-down.svg" />
+            </a>
+            <div class="dropdown-content">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+          <div class="careers-about">
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+          </div>
+        </div>
+        <div class="sidenav-menu">
+          <a href="javascript:void(0);" onclick="openNav()">
+            <img src="./images/icon-menu.svg" alt="menu" />
+          </a>
+        </div>
+        <div class="login-register">
+          <a href="#" class="login">Login</a>
+          <button class="header-btn" type="button">Register</button>
+        </div>
+      </div>
+      <div class="body">
+        <div class="mobile-img">
+          <img src="./images/image-hero-mobile.png" alt="illustration" />
+        </div>
+        <div class="body-text">
+          <h1>Make Remote Work</h1>
+          <p>
+            Get your team in sync, no matter your location.<br />
+            Streamline processes, create team rituals, and watch productivity
+            soar.
+          </p>
+          <button class="body-btn" type="button">Learn more</button>
+          <div class="clients">
+            <img
+              class="client-img"
+              src="./images/client-databiz.svg"
+              alt="databiz"
+            />
+            <img
+              class="client-img"
+              src="./images/client-audiophile.svg"
+              alt="audiophile"
+            />
+            <img class="client-img" src="./images/client-meet.svg" alt="meet" />
+            <img
+              class="client-img"
+              src="./images/client-maker.svg"
+              alt="maker"
+            />
+          </div>
+        </div>
+        <div class="body-img">
+          <img src="./images/image-hero-desktop.png" alt="illustration" />
+        </div>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./images/icon-close-menu.svg" alt="close-menu"></a>
+        <a href="#" class="sidebar-links" id="dropdown-btn" onclick="openDrop()">Features <img src="./images/icon-arrow-down.svg"></a>
+        <div class="dropdown-container">
+          <a href="#"><img src="./images/icon-todo.svg" alt="todo"> Todo List</a>
+          <a href="#"><img src="./images/icon-calendar.svg" alt="calendar">Calendar</a>
+          <a href="#"><img src="./images/icon-reminders.svg" alt="reminder">Reminders</a>
+          <a href="#"><img src="./images/icon-planning.svg" alt="planning">Planning</a>
+        </div>
+        <a href="#" class="sidebar-links" id="dropdown-btn" onclick="openDrop()">Company <img src="./images/icon-arrow-down.svg"></a>
+        <div class="dropdown-container">
+          <a href="#">History</a>
+          <a href="#">Our Team</a>
+          <a href="#">Blog</a>
+        </div>
+        <a href="#" class="sidebar-links">Careers</a>
+        <a href="#" class="sidebar-links">About</a>
+        <div class="sidebar-buttons">
+          <a href="#" class="sidebar-login">Login</a>
+          <button class="header-btn" type="button">Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://darkerarcher.netlify.app/" target="_blank">Ayo Otutuloro</a>.
+    </div>
+  </body>
+</html>
